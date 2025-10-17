@@ -1,0 +1,47 @@
+{
+  "manifest_version": 3,
+  "name": "Force SafeSearch",
+  "version": "1.2",
+  "description": "Automatically adds SafeSearch parameters to major search engines.",
+  "permissions": ["tabs"],
+  "host_permissions": [
+    "*://www.google.com/*",
+    "*://www.bing.com/*",
+    "*://www.bing.co.uk/*",
+    "*://www.youtube.com/*",
+    "*://duckduckgo.com/*",
+    "*://search.yahoo.com/*",
+    "*://search.yahoo.co.uk/*",
+    "*://ca.search.yahoo.com/*",
+    "*://images.search.yahoo.com/*",
+    "*://ca.images.search.yahoo.com/*",
+    "*://search.brave.com/*",
+    "*://safe.search.brave.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://www.google.com/search*",
+        "*://www.google.com/webhp*",
+        "*://www.bing.com/search*",
+        "*://www.bing.co.uk/search*",
+        "*://www.youtube.com/results*",
+        "*://duckduckgo.com/*",
+        "*://search.yahoo.com/search*",
+        "*://search.yahoo.co.uk/search*",
+        "*://ca.search.yahoo.com/*",
+        "*://images.search.yahoo.com/*",
+        "*://ca.images.search.yahoo.com/*",
+        "*://search.brave.com/*",
+        "*://safe.search.brave.com/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
