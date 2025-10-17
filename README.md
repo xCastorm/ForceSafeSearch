@@ -30,7 +30,8 @@ This extension is designed to **force SafeSearch parameters and redirects** to p
 
 1. **Download or clone** this repository:
    ```bash
-   git clone https://github.com/yourusername/forcesafesearch-extension.git
+   git clone https://github.com/xCastorm/ForceSafeSearch.git
+   
 2. Open chrome://extensions/ or brave://extensions/ in your browser.
 
 3. Enable Developer Mode (top right corner).
