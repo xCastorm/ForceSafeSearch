@@ -1,6 +1,6 @@
 #  Force SafeSearch Extension
 
-A lightweight, open-source browser extension that **automatically enables SafeSearch** on major search engines — including Google, Bing, DuckDuckGo, Yahoo, YouTube, and Brave Search.
+A lightweight, open-source chromium browser extension that **automatically enables SafeSearch** on major search engines — including Google, Bing, DuckDuckGo, Yahoo, YouTube, and Brave Search.
 
 This extension is designed to **force SafeSearch parameters and redirects** to prevent explicit content from appearing in search results.
 
