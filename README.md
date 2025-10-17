@@ -4,6 +4,8 @@ A lightweight, open-source chromium browser extension that **automatically enabl
 
 This extension is designed to **force SafeSearch parameters and redirects** to prevent explicit content from appearing in search results.
 
+I recommend making a host file and blocking browsers that do not have safesearch support.
+
 ---
 
 ##  Features
